@@ -1,11 +1,14 @@
 # YouTube Audio Data Processing, Classification and Recommendation System
 
 ## Abstract
-The rapid growth of digital audio content has made automatic music classification
-and recommendation systems a critical research area within signal processing and
-machine learning. While commercial platforms such as Spotify rely on proprietary
-audio descriptors and extensive user interaction data, open platforms like YouTube
-often suffer from incomplete, inconsistent, or entirely missing genre annotations,
+This project lies within the field of **Music Information Retrieval (MIR)**, 
+which studies computational methods for analyzing, organizing, and retrieving 
+music using signal processing and machine learning techniques. The rapid growth 
+of digital audio content has made automatic music classification and recommendation 
+systems a critical research area within signal processing and machine learning. 
+While commercial platforms such as Spotify rely on proprietary audio descriptors 
+and extensive user interaction data, open platforms like YouTube often suffer 
+from incomplete, inconsistent, or entirely missing genre annotations,
 particularly for non-Western music traditions.
 
 This undergraduate graduation project (2022) presents an end-to-end, audio-based
@@ -105,6 +108,13 @@ representations suitable for machine learning algorithms. Although the primary
 application is music classification, the same feature extraction pipeline can be
 applied to other signal processing domains, including biomedical signal analysis.
 
+The extracted acoustic features include:
+- MFCC (Mel-frequency cepstral coefficients)
+- Spectral centroid
+- Spectral rolloff
+- Chroma features
+- Zero-crossing rate
+
 ---
 
 ## 6. Machine Learning Models
@@ -165,3 +175,12 @@ music recommendation in open, user-generated content platforms.
 ## 11. Authors
 - **Ipek Iraz Esin**  
 - Mert Ertürk
+
+## 12. Future Work
+
+Several directions could extend this work:
+
+- Deep learning–based audio representation learning
+- Multimodal music understanding combining audio and metadata
+- Neural embedding–based music recommendation systems
+- Large-scale music datasets for cross-cultural genre analysis

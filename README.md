@@ -112,7 +112,6 @@ The extracted acoustic features include:
 - MFCC (Mel-frequency cepstral coefficients)
 - Spectral centroid
 - Spectral rolloff
-- Chroma features
 - Zero-crossing rate
 
 ---
